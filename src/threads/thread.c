@@ -224,7 +224,7 @@ thread_create (const char *name, int priority,
      immediately yield the processor to the new thread. */
   //if (t->priority > thread_get_priority ())
   //  thread_yield ();
-  /* The function thread_unlbock already forces the running
+  /* The function thread_unblock already forces the running
      thread to yield the CPU. */
 
   return tid;
